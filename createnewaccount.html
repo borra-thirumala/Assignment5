@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Sign Up</h2>
+    <form>
+    <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required placeholder="Eg:Varsha_2505" /><br><br>
+        <label for="username">First Name:</label>
+        <input type="text" name="firstname" id="firstname" required placeholder="Eg:Varsha" /><br><br>
+        <label for="username">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" /><br><br>
+        <label for="pswd">Password:</label>
+        <input type="password" name="pswd" id="pswd" required/><br><br>
+        <label for="pswd1">Re-type Password:</label>
+        <input type="password" name="pswd1" id="pswd1" required/><br><br>
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required/><br><br>
+        <label>Alternate Mobile Number:</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required/><br><br>
+        <label>EmailId:</label>
+        <input type="email" name="mail" id="mail" required placeholder="zzz@gmail.com"/><br><br>
+        <label>DOB:</label>
+        <input type="datetime-local"/><br><br>
+        <label>Gender:</label><br><br>
+        <input type="radio" name="language" value="Male">male
+        <input type="radio" name="language" value="Female">female
+        <input type="radio" name="language" value="Other">Other<br><br>
+       
+        <label for="browser">Choose your language:</label>
+        <input list="browsers" name="browser" id="browser">
+        
+        <datalist id="browsers">
+          <option value="English">
+          <option value="Hindi">
+          <option value="Telugu">
+          <option value="Tamil">
+          <option value="Kannada">
+        </datalist><br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" name="country" id="country" required placeholder="Eg:India" /><br><br>
+
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state" required placeholder="Eg:Telangana" /><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" required placeholder="Eg:Hyderabad" /><br><br>
+        
+
+        <input type="checkbox" name="language" value="Terms of use">I accept terms of use & privacy policy/><br><br>
+
+        <button type="submit" formaction="./Day8taskloginform.html">Register</button>
+    </form>
+</body>
+</html>
